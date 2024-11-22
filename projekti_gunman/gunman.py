@@ -6,8 +6,6 @@ Opiskelijanumero: 151842146
 Gunman- eli pyssymies-peli, jossa reaktionopeutesi laitetaan testiin.
 Aloita peli ja odota "Shoot!"-napin ilmestymistä. Ammu pyssysi ennen
 vihollista niin voitat. Yritä kerätä mahdollisimman suuri voittoputki.
-
-Projektin on tarkoitus täyttää kehittyneen käyttöliittymän kriteerit.
 """
 
 minimum_reaction_time = 230
