@@ -3,19 +3,21 @@ COMP.CS.100 Ohjelmointi 1, syksy 2023
 Tekijä: Jade Pitkänen, jade.pitkanen@tuni.fi
 Opiskelijanumero: 151842146
 
+Peli tehty Qt Creatorilla. 
+
 Gunman- eli pyssymies-peli, jossa reaktionopeutesi laitetaan testiin.
 Aloita peli ja odota "Shoot!"-napin ilmestymistä. Ammu pyssysi ennen
 vihollista niin voitat. Yritä kerätä mahdollisimman suuri voittoputki.
 """
 
-minimum_reaction_time = 230
-maximum_reaction_time = 500
 # Pelissä käytettävät reaktioajat normaalimoodissa. Vapaasti muokattavissa
 # tarpeen mukaan. Tavallisesti ihmisen reaktioaika on välillä 200-400 ms.
+minimum_reaction_time = 230
+maximum_reaction_time = 500
 
-image_files = ["standstill.gif", "shot.gif", "defeat.gif"]
 # Pelissä käytetyt kuvat. Myös muokattavissa, mutta pelissä on mukana
 # upea itsetehty kuvitus.
+image_files = ["standstill.gif", "shot.gif", "defeat.gif"]
 
 from tkinter import *
 from random import randint
